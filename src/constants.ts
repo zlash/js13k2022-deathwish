@@ -1,0 +1,1 @@
+export const viewResolution = [800, 600];

@@ -1,0 +1,33 @@
+export const TipitoWalk = 0;
+export const Key = 1;
+export const InGameSkull = 2;
+export const Spikes = 3;
+export const RedBall = 4;
+export const BlueBall = 5;
+export const Infinity = 6;
+export const Patito = 7;
+export const WaterTile = 8;
+export const PillarsSwitch = 9;
+export const FloorTile = 10;
+export const Pillar = 11;
+export const House = 12;
+export const TopHat = 13;
+export const DirtTile = 14;
+export const LiquidTipito = 15;
+export const Tree = 16;
+export const Wheel = 17;
+export const WheelSwitch = 18;
+export const Door = 19;
+export const Wall = 20;
+export const Bars = 21;
+export const TallWall = 22;
+export const WallWoodDeco = 23;
+export const Carpet = 24;
+export const TwistBaseColumn = 25;
+export const TipitoStand = 26;
+
+// Over menu gear are front facing!
+export const MenuGear = 50;
+export const Lock = 51;
+export const Skull = 52;
+export const Tubisor = 53;

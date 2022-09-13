@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Build",
+			"command": "./build.bash"
+		},
+		{
+			"type": "shell",
+			"group": "build",
+			"label": "Compress",
+			"command": "./tools/processDist.bash"
+		}
+	]
+}

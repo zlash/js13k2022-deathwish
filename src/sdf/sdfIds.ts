@@ -1,0 +1,20 @@
+export const Wall = 0;
+export const Floor = 1;
+export const Water = 2;
+export const FertileEarth = 3;
+
+export const Tipito = 10;
+export const OpenDoor = 11;
+export const ClosedDoor = 12
+export const Spikes = 13;
+export const Key = 14;
+export const Switch = 15;
+export const Toggleable = 16;
+export const ToggleableOff = 17;
+export const House = 18;
+export const Bars = 19;
+export const TipitoLiquid = 20;
+export const Fire = 21;
+export const Tree = 22;
+export const Wheel = 23;
+export const WheelSwitch = 24;

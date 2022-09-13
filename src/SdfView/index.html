@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZA SDF VIEWER!</title>
+    <style>
+        img {
+            margin: 50px;
+            border: 1px black solid;
+            display: block;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body style="background-color: gray;">
+    <script>
+        // Block the loaded event so the game doesn't start! xD
+        window.addEventListener('DOMContentLoaded', (ev) => {
+            ev.stopImmediatePropagation();
+        }, true);
+    </script>
+    <canvas id="thecanvas" width="1" height="1" style="display:none"></canvas>
+    <script src="./live.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
